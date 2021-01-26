@@ -1,0 +1,76 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "name": "刘某 20",
+		"x": 0,
+        "y": 0,
+        "value": 1.12,
+        "category": 0
+      },
+      {
+        "id": "1",
+        "name":"父亲 40",
+        "x": -100,
+        "y": -100,
+        "value": 1.13,
+        "category": 1
+      },
+      {
+        "id": "2",
+        "name": "母亲 39",
+		"x": 100,
+        "y": -100,
+        "value": 1.13,
+        "category": 1
+      },
+      {
+        "id": "3",
+        "name": "大伯 50",
+		"x": -100,
+        "y": -200,
+        "value": 1.15,
+        "category": 2
+      },
+      {
+        "id": "4",
+        "name": "外甥 7",
+		"x": 100,
+        "y": -200,
+        "value": 1.16,
+        "category": 2
+      },
+      
+      
+    ],
+    "links": [
+      {
+	  "source": 0,
+	  "target": 1
+	  }
+	  {
+	  "source": 0,
+	  "target": 2
+	  }
+	  {
+	  "source": 1,
+	  "target": 3
+	  }
+	  {
+	  "source": 2,
+	  "target": 4
+	  }
+    ],
+    "categories": [
+      {
+        "name": "0号病例"
+      },
+      {
+        "name": "1代病例"
+      },
+      {
+        "name": "2代病例"
+      },
+      
+    ]
+  }
